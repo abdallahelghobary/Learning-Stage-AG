@@ -5,6 +5,8 @@ void main() {
 }
 
 class BurthDayApp extends StatelessWidget {
+  const BurthDayApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
